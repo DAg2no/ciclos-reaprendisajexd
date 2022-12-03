@@ -1,11 +1,12 @@
-let box = document.getElementById('box');
-    box.innerText = ('');
-
-console.log(box)
-
 const Names = ['thomas', 'mario', 'juan', 'pablo']
-if (Names[0] == box) {
+// capturando texto del id
+
+let box = document.getElementById('box');
+
+function activeCircuit(){
+if (Names[1] == box.value) {
     console.log('correct')
 } else {
-    console.log('incorrect')
+    console.error('incorrect')
+}
 }
